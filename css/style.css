@@ -1,0 +1,23 @@
+:root {
+  --red: #FF0000;
+  --blue: #0000FF;
+  --orange: #FF8C00;
+  --green: #006400;
+  --aqua: #00FFFF;
+  --black: #000000;
+  --white: #ffffff;
+  --gray: #696969;
+  --purple: #800080;
+}
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+  scroll-behavior: smooth;
+}
+body {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  background-color: var(--white);
+}
