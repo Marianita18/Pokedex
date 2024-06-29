@@ -34,3 +34,13 @@ body {
 .water{
   background-color: var(--aqua);
 }
+.cardPokemon{
+  transform: scale(1);
+  transition-property: transform;
+  transition-duration: 1s;
+}
+.cardPokemon:hover{
+  transform: scale(1.1);
+  transition-property: transform;
+  transition-duration: 1s;
+}
