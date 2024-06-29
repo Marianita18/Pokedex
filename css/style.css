@@ -44,3 +44,8 @@ body {
   transition-property: transform;
   transition-duration: 1s;
 }
+.background {
+  background: url(../img/imgPokemons/background.jpg) no-repeat;
+  background-size: cover;
+  height: auto;
+ }
