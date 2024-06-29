@@ -3,7 +3,7 @@
   --blue: #0000FF;
   --orange: #FF8C00;
   --green: #006400;
-  --aqua: #00FFFF;
+  --aqua: 	#00BFFF;
   --black: #000000;
   --white: #ffffff;
   --gray: #696969;
@@ -22,11 +22,15 @@ body {
   background-color: var(--white);
 }
 
-#imgIvysaur{
-  background: url(../img/imgPokemons/Ivysaur.jpeg) no-repeat;
-  background-size:cover;
-  border-color: green;
-  padding: 0px 30px 0px 3px;
-  
-  
+.plant{
+  background-color: var(--green);
+}
+.gray{
+  background-color: var(--gray);
+}
+.fire{
+  background-color: var(--orange);
+}
+.water{
+  background-color: var(--aqua);
 }
