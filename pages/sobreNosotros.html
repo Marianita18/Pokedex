@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="Página que contiene descripción de cada pokemón, su especie y evolución"
+    />
+    <meta name="author" content="Grupo 2" />
+    <meta
+      name="keywords"
+      content="pokédex, pokemón, especie pokemón, evolución pokemón, características pokemón"
+    />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="../css/style.css" />
+    <title>Pokédex</title>
+  </head>
+  <main>
+    <header></header>
+    <body>
+      <section id="carousel-pokemon" class="carousel slide">
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <img
+              src="../img/carrusel/pokemon-carrousel-2.jpg"
+              class="d-block w-100 carousel-img"
+              alt="pokemon"
+            />
+          </div>
+          <div class="carousel-item carousel">
+            <img
+              src="../img/carrusel/pokemon-carrousel-3.jpg"
+              class="d-block w-100 carousel-img"
+              alt="pokemon"
+            />
+          </div>
+          <div class="carousel-item carousel">
+            <img
+              src="../img/carrusel/carrousel-6.jpeg"
+              class="d-block w-100 carousel-img"
+              alt="pokemon"
+            />
+          </div>
+        </div>
+        <button
+          class="carousel-control-prev"
+          type="button"
+          data-bs-target="#carousel-pokemon"
+          data-bs-slide="prev"
+        >
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button
+          class="carousel-control-next"
+          type="button"
+          data-bs-target="#carousel-pokemon"
+          data-bs-slide="next"
+        >
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </section>
+      <section class="container">
+        <h1 class="text-center text-danger mt-4">Sobre Nosotros</h1>
+        <h2>
+          Este grupo está formado por 4 estudiantes que no nos conocemos
+          personalmente, todo el trabajo se relizó de manera remota.
+        </h2>
+        <article class="row mt-5 text-center">
+          <div class="col-12 col-md-3">
+            <img src="../img/avatar/avatar-mariana.png" alt="Mariana" />
+            <p>Mariana Mendoza</p>
+          </div>
+          <div class="col-12 col-md-3">
+            <img src="../img/avatar/avatar-augusto.png" alt="Augusto" />
+            <p>Augusto Veron</p>
+          </div>
+          <div class="col-12 col-md-3">
+            <img src="../img/avatar/avartar-maxi.png" alt="Maxi" />
+            <p>Maximiliano Rios</p>
+          </div>
+          <div class="col-12 col-md-3">
+            <img src="../img/avatar/avatar-victoria.png" alt="Victoria" />
+            <p>Victoria Gramajo</p>
+          </div>
+        </article>
+      </section>
+      <section class="container mt-5 border border-danger">
+        <p class="mt-4">Queres dejarnos un comentario?</p>
+        <form>
+          <div class="mb-3">
+            <label for="form-contacto" class="form-label">Email (*)</label>
+            <input
+              type="email"
+              class="form-control"
+              id="form-contacto"
+              placeholder="pokedex@example.com"
+              minlength="15"
+              maxlength="50"
+              required
+            />
+          </div>
+          <div class="mb-3">
+            <label for="textarea-contacto" class="form-label"
+              >Comentario (*)</label
+            >
+            <textarea
+              class="form-control"
+              id="textarea-contacto"
+              rows="3"
+              minlength="5"
+              maxlength="250"
+              required
+            ></textarea>
+          </div>
+          <p>Los campos con (*) son obligatorios</p>
+          <button class="btn btn-primary mb-3">Enviar</button>
+        </form>
+      </section>
+      <footer></footer>
+    </body>
+    <script src="../js/bootstrap.min.js"></script>
+  </main>
+</html>
