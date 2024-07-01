@@ -48,3 +48,14 @@ body {
   background-size: cover;
   min-height: 100vh;
  }
+
+/* Estilos de Augusto */
+
+.bg-orange{
+  background: orange;
+}
+
+.text-pink{
+  color: rgb(255, 121, 143);
+}
+
