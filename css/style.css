@@ -49,8 +49,11 @@ body {
   min-height: 100vh;
 }
 .footer {
-  margin-top: 130%;
+  margin-top: 0%;
 }
 .letras {
   color: white;
+}
+.nada{
+
 }

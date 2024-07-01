@@ -5,21 +5,67 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta
       name="description"
-      content="Página que contiene descripción de cada pokemón, su especie y evolución" />
+      content="Página que contiene descripción de cada pokemón, su especie y evolución"
+    />
     <meta name="author" content="Grupo 2" />
     <meta
       name="keywords"
-      content="pokédex, pokemón, especie pokemón, evolución pokemón, características pokemón" />
+      content="pokédex, pokemón, especie pokemón, evolución pokemón, características pokemón"
+    />
     <link
       href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css"
       rel="stylesheet"
       integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH"
-      crossorigin="anonymous" />
+      crossorigin="anonymous"
+    />
     <link rel="stylesheet" href="./css/style.css" />
     <title>Pokédex</title>
   </head>
   <body>
-    <header></header>
+    <header>
+      <nav class="navbar navbar-expand-lg bg-dark">
+        <div class="container">
+          <a class="navbar-brand titulo text-light" href="index.html"
+            >pokedex</a
+          >
+          <button
+            class="navbar-toggler bg-light"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#opcionesNavbar"
+            aria-controls="opcionesNavbar"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="opcionesNavbar">
+            <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a
+                  class="nav-link active text-light"
+                  aria-current="page"
+                  href="index.html"
+                  >Inicio</a
+                >
+              </li>
+              <li class="nav-item">
+                <a class="nav-link text-light" href="#">mis pokemones</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link text-light" href="#">registro</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link text-light" href="#">escanear</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link text-light" href="#">catalogo</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+    </header>
     <main>
       <!-- TITLE -->
       <section id="title" class="container py-4">
@@ -30,12 +76,14 @@
         <section class="container text-center mt-5 pb-5">
           <article class="row">
             <div
-              class="col-xs-12 px-4 col-sm-6 col-md-4 col-lg-3 col-xl-3 col-xxl-3 mb-5">
+              class="col-xs-12 px-4 col-sm-6 col-md-4 col-lg-3 col-xl-3 col-xxl-3 mb-5"
+            >
               <div class="card cardPokemon h-100 shadow">
                 <img
                   src="./img/imgPokemons/Bulbasaur.jpeg"
                   class="card-img-top w-100 object-fit-contain px-2 h-100"
-                  alt="Bulbasaur" />
+                  alt="Bulbasaur"
+                />
                 <div class="card-body">
                   <p class="text-start text-secondary">N°0001</p>
                   <h3 class="card-title text-start">Bulbasaur</h3>
@@ -60,12 +108,14 @@
               </div>
             </div>
             <div
-              class="col-xs-12 px-4 col-sm-6 col-md-4 col-lg-3 col-xl-3 col-xxl-3 mb-5">
+              class="col-xs-12 px-4 col-sm-6 col-md-4 col-lg-3 col-xl-3 col-xxl-3 mb-5"
+            >
               <div class="card cardPokemon h-100 shadow">
                 <img
                   src="./img/imgPokemons/Ivysaur.jpeg"
                   class="card-img-top w-100 object-fit-contain px-2 h-100"
-                  alt="Ivysaur" />
+                  alt="Ivysaur"
+                />
                 <div class="card-body">
                   <p class="text-start text-secondary">N°0002</p>
                   <h3 class="card-title text-start">Ivysaur</h3>
@@ -90,12 +140,14 @@
               </div>
             </div>
             <div
-              class="col-xs-12 px-4 col-sm-6 col-md-4 col-lg-3 col-xl-3 col-xxl-3 mb-5">
+              class="col-xs-12 px-4 col-sm-6 col-md-4 col-lg-3 col-xl-3 col-xxl-3 mb-5"
+            >
               <div class="card cardPokemon h-100 shadow">
                 <img
                   src="./img/imgPokemons/Venusaur.jpeg"
                   class="card-img-top w-100 object-fit-contain px-2 h-100"
-                  alt="Venusaur" />
+                  alt="Venusaur"
+                />
                 <div class="card-body">
                   <p class="text-start text-secondary">N°0003</p>
                   <h3 class="card-title text-start">Venusaur</h3>
@@ -120,12 +172,14 @@
               </div>
             </div>
             <div
-              class="col-xs-12 px-4 col-sm-6 col-md-4 col-lg-3 col-xl-3 col-xxl-3 mb-5">
+              class="col-xs-12 px-4 col-sm-6 col-md-4 col-lg-3 col-xl-3 col-xxl-3 mb-5"
+            >
               <div class="card cardPokemon h-100 shadow">
                 <img
                   src="./img/imgPokemons/Charmander.jpeg"
                   class="card-img-top w-100 object-fit-contain px-2 h-100 py-3"
-                  alt="Charmander" />
+                  alt="Charmander"
+                />
                 <div class="card-body">
                   <p class="text-start text-secondary">N°0004</p>
                   <h3 class="card-title text-start">Charmander</h3>
@@ -144,12 +198,14 @@
               </div>
             </div>
             <div
-              class="col-xs-12 px-4 col-sm-6 col-md-4 col-lg-3 col-xl-3 col-xxl-3 mb-5">
+              class="col-xs-12 px-4 col-sm-6 col-md-4 col-lg-3 col-xl-3 col-xxl-3 mb-5"
+            >
               <div class="card cardPokemon h-100 shadow">
                 <img
                   src="./img/imgPokemons/Charmeleon.jpeg"
                   class="card-img-top w-100 object-fit-contain px-2 h-100 py-3"
-                  alt="Charmeleon" />
+                  alt="Charmeleon"
+                />
                 <div class="card-body">
                   <p class="text-start text-secondary">N°0005</p>
                   <h3 class="card-title text-start">Charmeleon</h3>
@@ -168,12 +224,14 @@
               </div>
             </div>
             <div
-              class="col-xs-12 px-4 col-sm-6 col-md-4 col-lg-3 col-xl-3 col-xxl-3 mb-5">
+              class="col-xs-12 px-4 col-sm-6 col-md-4 col-lg-3 col-xl-3 col-xxl-3 mb-5"
+            >
               <div class="card cardPokemon h-100 shadow">
                 <img
                   src="./img/imgPokemons/Charizard.jpeg"
                   class="card-img-top w-100 object-fit-contain px-2 h-100"
-                  alt="Charizard" />
+                  alt="Charizard"
+                />
                 <div class="card-body">
                   <p class="text-start text-secondary">N°0006</p>
                   <h3 class="card-title text-start">Charizard</h3>
@@ -198,12 +256,14 @@
               </div>
             </div>
             <div
-              class="col-xs-12 px-4 col-sm-6 col-md-4 col-lg-3 col-xl-3 col-xxl-3 mb-5">
+              class="col-xs-12 px-4 col-sm-6 col-md-4 col-lg-3 col-xl-3 col-xxl-3 mb-5"
+            >
               <div class="card cardPokemon h-100 shadow">
                 <img
                   src="./img/imgPokemons/Squirtle.jpeg"
                   class="card-img-top w-100 object-fit-contain px-2 h-100"
-                  alt="Squirtle" />
+                  alt="Squirtle"
+                />
                 <div class="card-body">
                   <p class="text-start text-secondary">N°0007</p>
                   <h3 class="card-title text-start">Squirtle</h3>
@@ -222,12 +282,14 @@
               </div>
             </div>
             <div
-              class="col-xs-12 px-4 col-sm-6 col-md-4 col-lg-3 col-xl-3 col-xxl-3 mb-5">
+              class="col-xs-12 px-4 col-sm-6 col-md-4 col-lg-3 col-xl-3 col-xxl-3 mb-5"
+            >
               <div class="card cardPokemon h-100 shadow">
                 <img
                   src="./img/imgPokemons/Wartortle.jpeg"
                   class="card-img-top w-100 object-fit-contain px-2 h-100"
-                  alt="Wartortle" />
+                  alt="Wartortle"
+                />
                 <div class="card-body">
                   <p class="text-start text-secondary">N°0008</p>
                   <h3 class="card-title text-start">Wartortle</h3>
@@ -246,12 +308,14 @@
               </div>
             </div>
             <div
-              class="col-xs-12 px-4 col-sm-6 col-md-4 col-lg-3 col-xl-3 col-xxl-3 mb-5">
+              class="col-xs-12 px-4 col-sm-6 col-md-4 col-lg-3 col-xl-3 col-xxl-3 mb-5"
+            >
               <div class="card cardPokemon h-100 shadow">
                 <img
                   src="./img/imgPokemons/Blastoise.jpeg"
                   class="card-img-top w-100 object-fit-contain px-2 h-100 py-3"
-                  alt="Blastoise" />
+                  alt="Blastoise"
+                />
                 <div class="card-body">
                   <p class="text-start text-secondary">N°0009</p>
                   <h3 class="card-title text-start">Blastoise</h3>
@@ -273,6 +337,93 @@
         </section>
       </section>
     </main>
-    <footer></footer>
+    <footer class="py-5 bg-dark text-light text-center text-md-start footer">
+      <section class="container">
+        <article class="d-inline">
+          <h4 class="d-inline titulo">pokedex</h4>
+          <a class="ms-2 link-secondary" href="#"></a>
+          <a class="ms-2 link-secondary" href="#"></a>
+          <a class="ms-2 link-secondary" href="#"></a>
+        </article>
+        <article class="row my-4">
+          <div class="col-sm-12 col-md-6 col-lg-3">
+            <h5 class="text-secondary">tiPo de pokemon</h5>
+            <ul class="list-unstyled">
+              <li>
+                <a
+                  href="#"
+                  class="link-secondary link-underline-opacity-25 link-underline-opacity-100-hover"
+                ></a>
+              </li>
+              <li>
+                <a
+                  href="#"
+                  class="link-secondary link-underline-opacity-25 link-underline-opacity-100-hover"
+                ></a>
+              </li>
+              <li>
+                <a
+                  href="#"
+                  class="link-secondary link-underline-opacity-25 link-underline-opacity-100-hover"
+                ></a>
+              </li>
+              <li>
+                <a
+                  href="#"
+                  class="link-secondary link-underline-opacity-25 link-underline-opacity-100-hover"
+                ></a>
+              </li>
+              <li>
+                <a
+                  href="#"
+                  class="link-secondary link-underline-opacity-25 link-underline-opacity-100-hover"
+                ></a>
+              </li>
+            </ul>
+          </div>
+          <div class="col-sm-12 col-md-6 col-lg-3">
+            <h5 class="text-secondary">'</h5>
+            <ul class="list-unstyled">
+              <li>
+                <a
+                  href="#"
+                  class="link-secondary link-underline-opacity-25 link-underline-opacity-100-hover"
+                ></a>
+              </li>
+              <li>
+                <a
+                  href="#"
+                  class="link-secondary link-underline-opacity-25 link-underline-opacity-100-hover"
+                ></a>
+              </li>
+              <li>
+                <a
+                  href="#"
+                  class="link-secondary link-underline-opacity-25 link-underline-opacity-100-hover"
+                ></a>
+              </li>
+              <li>
+                <a
+                  href="#"
+                  class="link-secondary link-underline-opacity-25 link-underline-opacity-100-hover"
+                ></a>
+              </li>
+            </ul>
+          </div>
+          <div class="col-sm-12 col-md-6 col-lg-3">
+            <img src="" alt="" class="w-75" />
+          </div>
+          <div class="col-sm-12 col-md-6 col-lg-3">
+            <h5 class="text-secondary mt-3 mt-md-0">p</h5>
+            <img src="" alt="" class="w-75 py-1" />
+            <img src="" alt="" class="w-75 py-1" />
+          </div>
+        </article>
+      </section>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+      crossorigin="anonymous"
+    ></script>
   </body>
 </html>
