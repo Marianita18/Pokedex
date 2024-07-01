@@ -1,9 +1,9 @@
 :root {
-  --red: #FF0000;
-  --blue: #0000FF;
-  --orange: #FF8C00;
+  --red: #ff0000;
+  --blue: #0000ff;
+  --orange: #ff8c00;
   --green: #006400;
-  --aqua: 	#00BFFF;
+  --aqua: #00bfff;
   --black: #000000;
   --white: #ffffff;
   --gray: #696969;
@@ -21,24 +21,24 @@ body {
   flex-direction: column;
   background-color: var(--white);
 }
-.plant{
+.plant {
   background-color: var(--green);
 }
-.gray{
+.gray {
   background-color: var(--gray);
 }
-.fire{
+.fire {
   background-color: var(--orange);
 }
-.water{
+.water {
   background-color: var(--aqua);
 }
-.cardPokemon{
+.cardPokemon {
   transform: scale(1);
   transition-property: transform;
   transition-duration: 1s;
 }
-.cardPokemon:hover{
+.cardPokemon:hover {
   transform: scale(1.1);
   transition-property: transform;
   transition-duration: 1s;
@@ -47,4 +47,10 @@ body {
   background: url(../img/imgPokemons/background.jpg) no-repeat;
   background-size: cover;
   min-height: 100vh;
- }
+}
+.footer {
+  margin-top: 130%;
+}
+.letras {
+  color: white;
+}
