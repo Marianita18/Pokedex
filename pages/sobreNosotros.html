@@ -5,98 +5,100 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta
       name="description"
-      content="Página que contiene descripción de cada pokemón, su especie y evolución"
-    />
+      content="Página que contiene descripción de cada pokemón, su especie y evolución" />
     <meta name="author" content="Grupo 2" />
     <meta
       name="keywords"
-      content="pokédex, pokemón, especie pokemón, evolución pokemón, características pokemón"
-    />
+      content="pokédex, pokemón, especie pokemón, evolución pokemón, características pokemón" />
     <link
       href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css"
       rel="stylesheet"
       integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH"
-      crossorigin="anonymous"
-    />
+      crossorigin="anonymous" />
     <link rel="stylesheet" href="../css/style.css" />
     <title>Pokédex</title>
   </head>
-        <header>
-          <nav class="navbar navbar-expand-lg bg-dark">
-            <div class="container">
-              <a class="navbar-brand titulo text-light" href="../index.html"
-                >pokedex</a
-              >
-              <button
-                class="navbar-toggler bg-light"
-                type="button"
-                data-bs-toggle="collapse"
-                data-bs-target="#opcionesNavbar"
-                aria-controls="opcionesNavbar"
-                aria-expanded="false"
-                aria-label="Toggle navigation"
-              >
-              <a class="navbar-brand titulo text-light text-uppercase fw-bold" href="../index.html">
-                <img class="logo" src="../img/logo.png" alt="" /> Pokédex
-              </a>
-              <button class="navbar-toggler bg-light" type="button" data-bs-toggle="collapse" data-bs-target="#opcionesNavbar"
-                aria-controls="opcionesNavbar" aria-expanded="false" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
-              </button>
-              <div class="collapse navbar-collapse" id="opcionesNavbar">
-                <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
-                  <li class="nav-item">
-                    <a class="nav-link active text-light" aria-current="page" href="../index.html">Inicio</a>
-                  </li>
-                  <li class="nav-item">
-                    <a class="nav-link text-light" href="../pages/error404.html">Mis Pokemóns</a>
-                  </li>
-                  <li class="nav-item">
-                    <a class="nav-link text-light" href="./pages/sobreNosotros.html">Sobre Nosotros</a>
-                  </li>
-                  <li class="nav-item">
-                    <a class="nav-link text-light" href="../pages/error404.html">Catálogo</a>
-                  </li>
-                  <li class="nav-item">
-                    <a class="nav-link text-light" href="../pages/error404.html">Contacto</a>
-                  </li>
-                </ul>
-              </div>
-            </div>
-          </nav>
-        </header>
-    <body>
-      <main>
+  <body>
+    <header>
+      <nav class="navbar navbar-expand-lg bg-dark">
+        <div class="container">
+          <a
+            class="navbar-brand titulo text-light text-uppercase fw-bold"
+            href="../index.html">
+            <img class="logo" src="../img/logo.png" alt="" /> Pokédex
+          </a>
+          <button
+            class="navbar-toggler bg-light"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#opcionesNavbar"
+            aria-controls="opcionesNavbar"
+            aria-expanded="false"
+            aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="opcionesNavbar">
+            <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a
+                  class="nav-link active text-light"
+                  aria-current="page"
+                  href="../index.html"
+                  >Inicio</a
+                >
+              </li>
+              <li class="nav-item">
+                <a class="nav-link text-light" href="../pages/error404.html"
+                  >Mis Pokemóns</a
+                >
+              </li>
+              <li class="nav-item">
+                <a class="nav-link text-light" href="./pages/sobreNosotros.html"
+                  >Sobre Nosotros</a
+                >
+              </li>
+              <li class="nav-item">
+                <a class="nav-link text-light" href="../pages/error404.html"
+                  >Catálogo</a
+                >
+              </li>
+              <li class="nav-item">
+                <a class="nav-link text-light" href="../pages/error404.html"
+                  >Contacto</a
+                >
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+    </header>
+    <main>
       <section id="carousel-pokemon" class="carousel slide">
         <div class="carousel-inner">
           <div class="carousel-item active">
             <img
               src="../img/carrusel/pokemon-carrousel-2.jpg"
               class="d-block w-100 carousel-img"
-              alt="pokemon"
-            />
+              alt="pokemon" />
           </div>
           <div class="carousel-item carousel">
             <img
               src="../img/carrusel/pokemon-carrousel-3.jpg"
               class="d-block w-100 carousel-img"
-              alt="pokemon"
-            />
+              alt="pokemon" />
           </div>
           <div class="carousel-item carousel">
             <img
               src="../img/carrusel/carrousel-6.jpeg"
               class="d-block w-100 carousel-img"
-              alt="pokemon"
-            />
+              alt="pokemon" />
           </div>
         </div>
         <button
           class="carousel-control-prev"
           type="button"
           data-bs-target="#carousel-pokemon"
-          data-bs-slide="prev"
-        >
+          data-bs-slide="prev">
           <span class="carousel-control-prev-icon" aria-hidden="true"></span>
           <span class="visually-hidden">Previous</span>
         </button>
@@ -104,8 +106,7 @@
           class="carousel-control-next"
           type="button"
           data-bs-target="#carousel-pokemon"
-          data-bs-slide="next"
-        >
+          data-bs-slide="next">
           <span class="carousel-control-next-icon" aria-hidden="true"></span>
           <span class="visually-hidden">Next</span>
         </button>
@@ -135,9 +136,9 @@
           </div>
         </article>
       </section>
-      <section class="container mt-5 border border-danger">
+      <section class="container mt-5 border border-danger mb-5">
         <p class="mt-4">Queres dejarnos un comentario?</p>
-        <form>
+        <form ">
           <div class="mb-3">
             <label for="form-contacto" class="form-label">Email (*)</label>
             <input
@@ -147,8 +148,7 @@
               placeholder="pokedex@example.com"
               minlength="15"
               maxlength="50"
-              required
-            />
+              required />
           </div>
           <div class="mb-3">
             <label for="textarea-contacto" class="form-label"
@@ -160,8 +160,7 @@
               rows="3"
               minlength="5"
               maxlength="250"
-              required
-            ></textarea>
+              required></textarea>
           </div>
           <p>Los campos con (*) son obligatorios</p>
           <button class="btn btn-primary mb-3">Enviar</button>
@@ -171,7 +170,9 @@
     <footer class="py-5 bg-dark text-light text-center text-md-start footer">
       <section class="container">
         <article class="d-inline">
-            <h4 class="d-inline titulo fw-bold text-uppercase"><img class="logo" src="../img/logo.png" alt="" /> Pokédex</h4>
+          <h4 class="d-inline titulo fw-bold text-uppercase">
+            <img class="logo" src="../img/logo.png" alt="" /> Pokédex
+          </h4>
           <a class="ms-2 link-secondary" href="#"></a>
           <a class="ms-2 link-secondary" href="#"></a>
           <a class="ms-2 link-secondary" href="#"></a>
@@ -181,19 +182,29 @@
             <h5 class="text-secondary">Tipo de Pokemón</h5>
             <ul class="list-unstyled">
               <li>
-                <a href="#" class="link-secondary link-underline-opacity-25 link-underline-opacity-100-hover"></a>
+                <a
+                  href="#"
+                  class="link-secondary link-underline-opacity-25 link-underline-opacity-100-hover"></a>
               </li>
               <li>
-                <a href="#" class="link-secondary link-underline-opacity-25 link-underline-opacity-100-hover"></a>
+                <a
+                  href="#"
+                  class="link-secondary link-underline-opacity-25 link-underline-opacity-100-hover"></a>
               </li>
               <li>
-                <a href="#" class="link-secondary link-underline-opacity-25 link-underline-opacity-100-hover"></a>
+                <a
+                  href="#"
+                  class="link-secondary link-underline-opacity-25 link-underline-opacity-100-hover"></a>
               </li>
               <li>
-                <a href="#" class="link-secondary link-underline-opacity-25 link-underline-opacity-100-hover"></a>
+                <a
+                  href="#"
+                  class="link-secondary link-underline-opacity-25 link-underline-opacity-100-hover"></a>
               </li>
               <li>
-                <a href="#" class="link-secondary link-underline-opacity-25 link-underline-opacity-100-hover"></a>
+                <a
+                  href="#"
+                  class="link-secondary link-underline-opacity-25 link-underline-opacity-100-hover"></a>
               </li>
             </ul>
           </div>
@@ -201,16 +212,24 @@
             <h5 class="text-secondary"></h5>
             <ul class="list-unstyled">
               <li>
-                <a href="#" class="link-secondary link-underline-opacity-25 link-underline-opacity-100-hover"></a>
+                <a
+                  href="#"
+                  class="link-secondary link-underline-opacity-25 link-underline-opacity-100-hover"></a>
               </li>
               <li>
-                <a href="#" class="link-secondary link-underline-opacity-25 link-underline-opacity-100-hover"></a>
+                <a
+                  href="#"
+                  class="link-secondary link-underline-opacity-25 link-underline-opacity-100-hover"></a>
               </li>
               <li>
-                <a href="#" class="link-secondary link-underline-opacity-25 link-underline-opacity-100-hover"></a>
+                <a
+                  href="#"
+                  class="link-secondary link-underline-opacity-25 link-underline-opacity-100-hover"></a>
               </li>
               <li>
-                <a href="#" class="link-secondary link-underline-opacity-25 link-underline-opacity-100-hover"></a>
+                <a
+                  href="#"
+                  class="link-secondary link-underline-opacity-25 link-underline-opacity-100-hover"></a>
               </li>
             </ul>
           </div>
@@ -225,6 +244,6 @@
         </article>
       </section>
     </footer>
-    </body>
-    <script src="../js/bootstrap.min.js"></script>
+  </body>
+  <script src="../js/bootstrap.min.js"></script>
 </html>
