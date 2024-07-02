@@ -59,7 +59,14 @@ body {
 .bg-orange{
   background: orange;
 }
-.text-pink{
+.text-pink {
   color: rgb(255, 121, 143);
 }
-
+textarea {
+  resize: none;
+}
+.carousel-img {
+  height: 450px;
+  object-fit: cover;
+  object-position: 50% 60%;
+}
