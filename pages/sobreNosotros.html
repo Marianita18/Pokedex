@@ -21,10 +21,21 @@
     <link rel="stylesheet" href="../css/style.css" />
     <title>Pokédex</title>
   </head>
-  <main>
         <header>
           <nav class="navbar navbar-expand-lg bg-dark">
             <div class="container">
+              <a class="navbar-brand titulo text-light" href="../index.html"
+                >pokedex</a
+              >
+              <button
+                class="navbar-toggler bg-light"
+                type="button"
+                data-bs-toggle="collapse"
+                data-bs-target="#opcionesNavbar"
+                aria-controls="opcionesNavbar"
+                aria-expanded="false"
+                aria-label="Toggle navigation"
+              >
               <a class="navbar-brand titulo text-light text-uppercase fw-bold" href="../index.html">
                 <img class="logo" src="../img/logo.png" alt="" /> Pokédex
               </a>
@@ -55,6 +66,7 @@
           </nav>
         </header>
     <body>
+      <main>
       <section id="carousel-pokemon" class="carousel slide">
         <div class="carousel-inner">
           <div class="carousel-item active">
@@ -155,6 +167,7 @@
           <button class="btn btn-primary mb-3">Enviar</button>
         </form>
       </section>
+    </main>
     <footer class="py-5 bg-dark text-light text-center text-md-start footer">
       <section class="container">
         <article class="d-inline">
@@ -214,5 +227,4 @@
     </footer>
     </body>
     <script src="../js/bootstrap.min.js"></script>
-  </main>
 </html>
