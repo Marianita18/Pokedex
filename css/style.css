@@ -48,17 +48,20 @@ body {
   background-size: cover;
   min-height: 100vh;
 }
-
-/* Estilos de Augusto */
-
-.bg-orange {
+/* footer */
+.footer {
+  margin-top: 0%;
+}
+.letras {
+  color: white;
+}
+/* detalles*/
+.bg-orange{
   background: orange;
 }
-
 .text-pink {
   color: rgb(255, 121, 143);
 }
-
 textarea {
   resize: none;
 }
